@@ -30,3 +30,7 @@ Receptive field:
       --> It can use 2x2 as well as 3x3.
       --> Odd size kernel.
       --> Only 18 parameters.
+  
+1x1 convolution:
+          1x1 convolution combines those features which are contextually linked with 
+          each other. It is like DJ, it combines.
