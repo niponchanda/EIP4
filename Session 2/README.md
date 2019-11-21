@@ -95,10 +95,16 @@ Result of model.evaluate:
 [0.021084329184598755, 0.994]
 
 Strategy:
--> Started with 16 filter for using less parameter.
--> Used 1x1 kernel for merging of features.
--> Used maxpooling to reduce the parameter.
--> 3x3 kernel ------26x26
+
+- Started with 16 filter for using less parameter.
+
+- Used 1x1 kernel for merging of features.
+
+- Used maxpooling to reduce the parameter.
+
+-  Layers:
+
+   3x3 kernel ------26x26
    3x3 kernel ------24x24
    1x1 kernel ------24x24
    maxpooling ------12x12
