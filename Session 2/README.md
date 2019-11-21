@@ -104,16 +104,25 @@ Strategy:
 
 -  Layers:
 
-   3x3 kernel ------26x26
-   3x3 kernel ------24x24
-   1x1 kernel ------24x24
-   maxpooling ------12x12
-   3x3 kernel ------10x10
-   1x1 kernel ------10x10
-   3x3 kernel ------8x8
-   1x1 kernel ------8x8
-   3x3 kernel ------6x6
-   1x1 kernel ------6x6
+   3x3 kernel ------26x26 RF 3x3
+   
+   3x3 kernel ------24x24 RF 5x5
+   
+   1x1 kernel ------24x24 RF 5x5
+   
+   maxpooling ------12x12 RF 10x10
+   
+   3x3 kernel ------10x10 RF 12x12
+   
+   1x1 kernel ------10x10 RF 12x12
+   
+   3x3 kernel ------8x8   RF 14x14
+   
+   1x1 kernel ------8x8   RF 14x14
+   
+   3x3 kernel ------6x6   RF 16x16
+   
+   1x1 kernel ------6x6   RF 16x16
 
 
 
