@@ -110,7 +110,7 @@ Strategy:
    
    1x1 kernel ------24x24 RF 5x5
    
-   maxpooling ------12x12 RF 10x10
+   maxpooling(2x2)--12x12 RF 10x10
    
    3x3 kernel ------10x10 RF 12x12
    
